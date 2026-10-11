@@ -72,13 +72,14 @@
           restores ad-free access using an app-generated identifier, purchase
           records and technical app/device information. We do not receive your
           payment-card details. A verified Remove Ads purchase hides the
-          advertising banner. Removing the app or buying Remove Ads does not
-          automatically delete existing purchase records held by service
-          providers.
+          advertising banner and any full-screen ads. Removing the app or buying
+          Remove Ads does not automatically delete existing purchase records
+          held by service providers.
         </p>
         <h2>Advertising and consent</h2>
         <p>
-          The app uses Google AdMob and requests non-personalized banner ads.
+          The app uses Google AdMob and requests non-personalized banner ads
+          and, when enabled, full-screen ads at transitions between main tabs.
           Google's SDK may process IP addresses, approximate location derived
           from IP, permitted device identifiers, ad interactions, performance
           and diagnostic information for ad delivery, measurement and fraud
@@ -94,8 +95,10 @@
         <p>
           The installed app checks Expo's update service for compatible updates.
           These network requests provide technical request information such as
-          your IP address, app/runtime version and platform; character saves are
-          not included.
+          your IP address, app/runtime version, platform and a stable
+          installation identifier. A report of a previous fatal app error may
+          also be sent with this identifier to diagnose update and app failures.
+          Character saves are not included.
         </p>
         <p>
           Bug reports and suggestions are sent only when you send the prepared
@@ -182,18 +185,19 @@
           Nákupy na iOS zpracovává Apple. RevenueCat ověřuje nákupy a obnovuje
           odstranění reklam pomocí identifikátoru vytvořeného aplikací, záznamů
           o nákupu a technických údajů o aplikaci a zařízení. Údaje platební
-          karty nedostáváme. Ověřený nákup Remove Ads skryje reklamní banner.
-          Odinstalace aplikace ani nákup odstranění reklam automaticky nemažou
-          záznamy u poskytovatelů.
+          karty nedostáváme. Ověřený nákup Remove Ads skryje reklamní banner i
+          případné celoobrazovkové reklamy. Odinstalace aplikace ani nákup
+          odstranění reklam automaticky nemažou záznamy u poskytovatelů.
         </p>
         <h2>Reklamy a souhlas</h2>
         <p>
-          Aplikace používá Google AdMob a žádá o nepersonalizované bannery.
-          Google může pro doručování a měření reklam a prevenci podvodů
-          zpracovávat IP adresu, z ní odvozenou přibližnou polohu, povolené
-          identifikátory zařízení, interakce s reklamami a údaje o výkonu a
-          diagnostice. I nepersonalizovaná reklama může zahrnovat zpracování
-          údajů.
+          Aplikace používá Google AdMob a žádá o nepersonalizované bannery a při
+          zapnutí tohoto formátu také celoobrazovkové reklamy při přechodu mezi
+          hlavními záložkami. Google může pro doručování a měření reklam a
+          prevenci podvodů zpracovávat IP adresu, z ní odvozenou přibližnou
+          polohu, povolené identifikátory zařízení, interakce s reklamami a
+          údaje o výkonu a diagnostice. I nepersonalizovaná reklama může
+          zahrnovat zpracování údajů.
         </p>
         <p>
           Kde je to vyžadováno, aplikace požádá o souhlas. Pokud je v Nastavení
@@ -204,8 +208,10 @@
         <p>
           Nainstalovaná aplikace kontroluje kompatibilní aktualizace přes Expo.
           Síťové požadavky poskytují technické informace, například IP adresu,
-          verzi aplikace a prostředí a platformu. Uložené postavy se s těmito
-          požadavky neodesílají.
+          verzi aplikace a prostředí, platformu a stabilní identifikátor
+          instalace. Spolu s tímto identifikátorem může být odeslána zpráva o
+          předchozí závažné chybě aplikace pro diagnostiku chyb aplikace a
+          aktualizací. Uložené postavy se s těmito požadavky neodesílají.
         </p>
         <p>
           Chybu nebo nápad odešlete až sami z e-mailové aplikace. Dostaneme vaši
